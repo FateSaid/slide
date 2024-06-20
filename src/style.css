@@ -1,0 +1,112 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+header,
+footer {
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  width: fit-content;
+  border: 1px solid #000;
+  position: relative;
+  padding: 20px;
+}
+
+.drop-down {
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  position: absolute;
+  top: 68px;
+  padding: 30px 60px;
+  gap: 20px;
+  border-radius: 25px;
+  z-index: 1;
+  background-color: rgb(206, 200, 200);
+}
+
+.link {
+  padding: 10px;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
+
+.link:nth-child(even) {
+  border: 1px solid #000;
+  border-left: none;
+  border-right: none;
+}
+
+.contain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-div {
+  margin: 5px;
+  display: flex;
+  gap: 10px;
+}
+
+.circle {
+  border: 1px solid #000;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.portrait {
+  border: 1px solid #000;
+  height: 500px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.image-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.toggle {
+  background-color: black;
+}
